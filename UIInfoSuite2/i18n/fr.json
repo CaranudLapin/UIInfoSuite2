@@ -1,6 +1,21 @@
 {
   // GUI - Game Menu
   "OptionsTabTooltip": "Options de UI Info Suite 2",
+  // some config options
+  "Bool.ShowOptionsTabInMenu.DisplayedName": "Afficher les options dans le menu en jeu",
+  "Bool.ShowOptionsTabInMenu.Tooltip": "Permet d’afficher un onglet supplémentaire dans le menu en jeu où vous pouvez configurer chaque option pour ce mod.",
+  "Text.ApplyDefaultSettingsFromThisSave.DisplayedName": "Appliquer les paramètres par défaut sur cette sauvegarde",
+  "Text.ApplyDefaultSettingsFromThisSave.Tooltip": "Les nouveaux personnages créés hériteront des paramètres du mod à partir de cette sauvegarde.",
+  "Keybinds.OpenCalendarKeybind.DisplayedName": "Raccourci « Calendrier »",
+  "Keybinds.OpenCalendarKeybind.Tooltip": "Ouvre l’onglet du calendrier.",
+  "Keybinds.OpenQuestBoardKeybind.DisplayedName": "Raccourci « Panneau des quêtes »",
+  "Keybinds.OpenQuestBoardKeybind.Tooltip": "Ouvre l’onglet des quêtes.",
+  "Keybinds.Subtitle.ShowRange.displayedName": "Montrer les portées d’effet des objets",
+  "Keybinds.Subtitle.ShowRange.Tooltip": "Affecte les épouvantails, les arroseurs, les maisons Junimo, les ruches, les troncs à champignon et les graines de mousse.",
+  "Keybinds.ShowOneRange.DisplayedName": "Montrer la portée de l’objet sélectionné",
+  "Keybinds.ShowOneRange.Tooltip": "Lorsque la souris se place sur l’objet que vous souhaitez, montrer la portée.",
+  "Keybinds.ShowAllRange.DisplayedName": "Montrer toutes les portées d’objet",
+  "Keybinds.ShowAllRange.Tooltip": "Lorsque la souris se place sur l’objet que vous souhaitez, montrer TOUTES les portées d’objet.",
   //GUI - Billboard
   "Billboard": "Panneau d'affichage",
   "Calendar": "Calendrier",
@@ -18,6 +33,8 @@
   "ReadyToHarvest": "Prêt à être récolté !",
   "With": "avec",
   "Fertilized": "fertilisé",
+  "Watered": "arrosé",
+  "NotWatered": "non arrosé",
   "DoesNotProduceThisSeason": "Ne produit pas cette saison",
   //Tree
   "Stump": "souche",
@@ -36,6 +53,8 @@
   "GreenRainType3": "Pluie verte Type 3",
   "Mystic": "Mystique",
   "VmvBirch": "(VMV) Bouleau",
+  "SVEBirch": "(SVE) Bouleau",
+  "SVEFir": "(SVE) Sapin",
   //Display icons - General
   "TodaysRecipe": "Recette du jour : ",
   "TravelingMerchantIsInTown": "Le marchand itinérant est en ville !",
@@ -75,6 +94,8 @@
   "HideAnimalPetOnMaxFriendship": "Masquer lorsque l'amitié est maximale",
   "ShowCropAndBarrelTooltip": "Afficher le temps des cultures et des tonneaux",
   "ShowItemEffectRanges": "Afficher la portée des épouvantails et des arroseurs",
+  "ButtonControlShow": "Appuyer sur ctrl gauche pour montrer la portée de l’objet sélectionné.\nAppuyer sur alt gauche pour montrer toutes les portées.",
+  "ShowBombRange": "Montrer la portée de destruction de la bombe.",
   "ShowExtraItemInformation": "Afficher des informations supplémentaires sur les objets",
   "ShowHarvestPricesInShop": "Afficher les prix de récolte dans le magasin",
   //Settings - Tabs info
@@ -95,5 +116,6 @@
   "ShowSeasonalBerry": "Afficher les objets de cueillette saisonniers",
   "ShowSeasonalBerryHazelnut": "Afficher les noisettes sur les arbres",
   //Others
-  "LevelUp": "Montée de niveau"
+  "LevelUp": "Montée de niveau",
+  "TrackOnMap": "Suivre sur la carte"
 }
